@@ -6,13 +6,13 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '3.1.2'
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
-gem 'rails', '~> 7.0.4'
+gem 'rails', '~> 7.2.2'
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem 'sprockets-rails'
 
 # Use the Puma web server [https://github.com/puma/puma]
-gem 'puma', '~> 5.0'
+gem 'puma', '~> 5.6'
 
 # Bundle and transpile JavaScript [https://github.com/rails/jsbundling-rails]
 gem 'jsbundling-rails'
@@ -89,4 +89,4 @@ gem 'pagy', '~> 5.10'
 gem 'rack-cors', '~> 1.1'
 gem 'ransack', '~> 3.2'
 gem 'simple_form', '~> 5.1'
-gem 'view_component', '~> 2.74'
+gem 'view_component', '~> 2.83'
